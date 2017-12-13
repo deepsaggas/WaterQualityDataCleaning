@@ -1,0 +1,174 @@
+CharacteristicName,ResultMeasure/MeasureUnitCode,Frequency
+"Alkalinity, total",mg/l,76378
+"Alkalinity, total",mg/l CaCO3,12281
+"Alkalinity, total",mg/l,2168
+"Alkalinity, total",nan,1021
+"Alkalinity, total",ppm,1
+Beam Attenuation (Seabird),m-1,302136
+Beam Attenuation (Seabird),None,231
+Beam Attenuation (Seabird),nan,9
+Chloride,mg/l,82549
+Chloride,nan,3253
+Chloride,mg/l,1770
+Chloride,ug/l,216
+Chlorophyll a (probe relative fluorescence),ug/l,370441
+Chlorophyll a (probe relative fluorescence),nan,23
+"Chlorophyll a, corrected for pheophytin",ug/l,167174
+"Chlorophyll a, corrected for pheophytin",nan,3337
+"Chlorophyll a, corrected for pheophytin",ppb,1641
+"Chlorophyll a, corrected for pheophytin",mg/l,237
+"Chlorophyll a, corrected for pheophytin",mg/m3,2
+Conductivity,uS/cm,332108
+Conductivity,umho/cm,10962
+Conductivity,mS/cm,6554
+Conductivity,nan,1629
+Conductivity,umho,3
+Conductivity,NTU,2
+Count,None,55523
+Count,count,17152
+Count,#/m3,1865
+Count,#/ml,1797
+Count,nan,72
+Count,#/m2,44
+Count,%,3
+"Depth, Secchi disk depth",m,650305
+"Depth, Secchi disk depth",ft,241414
+"Depth, Secchi disk depth",m,3476
+"Depth, Secchi disk depth",in,1247
+"Depth, Secchi disk depth",cm,941
+"Depth, Secchi disk depth",in,712
+"Depth, Secchi disk depth",nan,405
+"Depth, Secchi disk depth",ft,19
+"Depth, Secchi disk depth",deg F,1
+Dissolved oxygen (DO),mg/l,1673088
+Dissolved oxygen (DO),mg/l,33100
+Dissolved oxygen (DO),ppm,7261
+Dissolved oxygen (DO),nan,4191
+Dissolved oxygen (DO),ug/l,1221
+Dissolved oxygen (DO),%,251
+Dissolved oxygen (DO),deg F,19
+Dissolved oxygen (DO),mS/cm,2
+Dissolved oxygen (DO),deg C,2
+Dissolved oxygen saturation,%,386159
+Dissolved oxygen saturation,%,8664
+Dissolved oxygen saturation,mg/l,316
+Dissolved oxygen saturation,mg/l,207
+Dissolved oxygen saturation,nan,140
+Hydrogen ion,mg/l,101884
+Hydrogen ion,nan,30415
+Inorganic nitrogen (nitrate and nitrite),mg/l,109389
+Inorganic nitrogen (nitrate and nitrite),nan,35373
+Inorganic nitrogen (nitrate and nitrite),mg/l as N,9510
+Inorganic nitrogen (nitrate and nitrite),ug/l,1739
+Inorganic nitrogen (nitrate and nitrite),mg/kg as N,93
+Inorganic nitrogen (nitrate and nitrite),mg/kg,67
+Irradiance (Seabird),uE/m2/sec,318191
+Irradiance (Seabird),nan,6
+Kjeldahl nitrogen,mg/l,159398
+Kjeldahl nitrogen,mg/l as N,13678
+Kjeldahl nitrogen,mg/l,11314
+Kjeldahl nitrogen,ug/l,3337
+Kjeldahl nitrogen,nan,1016
+Kjeldahl nitrogen,mg/kg,883
+Kjeldahl nitrogen,mg/kg,222
+Kjeldahl nitrogen,% by wt,112
+Kjeldahl nitrogen,mg/kg as N,111
+Kjeldahl nitrogen,ug/l,73
+Lake physical appearance (choice list),nan,449498
+Lake recreational suitability (choice list),nan,447223
+Length,mm,178113
+Length,micron,157941
+Length,None,24
+Orthophosphate,mg/l,96601
+Orthophosphate,nan,38497
+Orthophosphate,mg/l asPO4,4983
+Orthophosphate,mg/l as P,4982
+Orthophosphate,ug/l,2902
+Orthophosphate,mg/l,1241
+Orthophosphate,ppb,543
+Orthophosphate,None,134
+Orthophosphate,mg/kg,16
+Oxygen,mg/l,133058
+Oxygen,% saturatn,8844
+Oxygen,nan,262
+pH,None,946349
+pH,std units,135780
+pH,None,31020
+pH,nan,15833
+pH,mV,16
+pH,NTU,2
+pH,ng,1
+Phosphate-phosphorus,mg/l,116790
+Phosphate-phosphorus,mg/kg,1915
+Phosphate-phosphorus,nan,455
+Phosphate-phosphorus,ug/l,32
+Phosphorus,mg/l,283645
+Phosphorus,mg/l as P,25763
+Phosphorus,ug/l,24819
+Phosphorus,mg/l,7534
+Phosphorus,nan,6734
+Phosphorus,ppb,1235
+Phosphorus,ug/l,767
+Phosphorus,mg/kg as P,583
+Phosphorus,mg/l PO4,512
+Phosphorus,mg/kg,445
+Phosphorus,ppb,217
+Phosphorus,ug/l as P,183
+Phosphorus,mg/kg,89
+Phosphorus,% by wt,61
+Phosphorus,mg/g,29
+Phosphorus,%,17
+Sex (choice list),None,153620
+Sex (choice list),nan,220
+Specific conductance,uS/cm,789896
+Specific conductance,uS/cm @25C,137110
+Specific conductance,umho/cm,69487
+Specific conductance,mS/cm,18415
+Specific conductance,umho/cm,16060
+Specific conductance,uS/cm,9217
+Specific conductance,S/m,5728
+Specific conductance,mS/cm,1149
+Specific conductance,mho/cm,1127
+Specific conductance,ug/l,237
+Specific conductance,nan,235
+Specific conductance,mg/l,165
+Specific conductance,None,2
+Specific conductance,mg/l,1
+Split Count,None,198584
+Split Count,#/m3,1005
+"Temperature, water",deg C,1696603
+"Temperature, water",deg F,472026
+"Temperature, water",deg C,30033
+"Temperature, water",nan,3439
+"Temperature, water",deg F,2280
+"Temperature, water",ft,100
+"Temperature, water",mg/l,5
+"Temperature, water",Deg,1
+"Temperature, water",ug/l,1
+"Transmittance, Horizontal",%,263306
+"Transmittance, Horizontal",nan,9
+Turbidity,NTU,83260
+Turbidity,FNU,25905
+Turbidity,None,14284
+Turbidity,nm,5718
+Turbidity,NTU,5023
+Turbidity,nan,3934
+Turbidity,FTU,3122
+Turbidity,NTRU,2617
+Turbidity,FNRU,2006
+Turbidity,JTU,533
+Turbidity,JCU,366
+Turbidity,FNMU,279
+Turbidity,T.U.,276
+Turbidity,FTU,163
+Turbidity,cm,27
+Turbidity,mg/l,20
+Turbidity,in,7
+Turbidity,mg/l SiO2,7
+Turbidity,deg C,3
+Turbidity,mg/l,2
+Water appearance (text),nan,452647
+Water appearance (text),None,104
+Width,micron,129073
+Width,mm,219
+Width,ft,1

@@ -1,0 +1,335 @@
+CharacteristicName,ResultMeasure/MeasureUnitCode,Standard unit,Transformation,Notes,Action,Function
+Actual Number of Individuals Examined,count,count,none, ,keep,
+Actual Number of Individuals Examined,None,count,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Algae, blue-green (phylum cyanophyta) density",#/ml,count/mL,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Alkalinity, Carbonate as CaCO3",mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Alkalinity, total",mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Alkalinity, total",mg/l CaCO3,mg/L,none,"Change the unit and variable name to be: var: Alkalinity, Carbonate as CaCO3; unit: mg/L",rename_all,"def f(row):
+	return ('Alkalinity, Carbonate as CaCO3',row['ResultMeasureValue'],row['Standard unit'])"
+"Alkalinity, total",ppm,mg/L,none,happens to be the same unit,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Ammonia,mg/kg,, ,Not sure so we can delete this variable,delete,
+Ammonia,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Ammonia,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Ammonia and ammonium,mg/kg as N,, ,Not sure so we can delete this variable,delete,
+Ammonia and ammonium,mg/l NH4,mg/L, ,Change the unit and variable name to be: var: Ammonia and ammonium as NH4; unit: mg/L,rename_all,"def f(row):
+	return ('Ammonia and ammonium as NH4',row['ResultMeasureValue'],row['Standard unit'])"
+Ammonia and ammonium,mg/l as N,mg/L, ,Remove the 'as N',rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Biomass,ug,, ,"Not sure, so leave it but keep the variable",keep,
+Biomass,ug/m3,, ,"Not sure, so leave it but keep the variable",keep,
+Carbonate,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Carbonate,mg/l CaCO3,mg/L, ,"Change the unit and variable name to be: var: Carbonate, as CaCO3; unit: mg/L",rename_all,"def f(row):
+	return ('Carbonate, as CaCO3',row['ResultMeasureValue'],row['Standard unit'])"
+Chemical oxygen demand,mg/kg,, ,Not sure so we can delete this variable,delete,
+Chemical oxygen demand,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Chemical oxygen demand,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chloride,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Chloride,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chlorophyll,RFU,RFU,none, ,keep,
+Chlorophyll,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chlorophyll,#/l,, ,Not sure -- I would need to see some data,keep,
+Chlorophyll,IVFU,, ,Not sure so we can delete this variable,delete,
+Chlorophyll,None,, ,Delete,delete,
+Chlorophyll,RFU,RFU,none,Same as row 24 (not sure why it's listed differently here),keep,
+Chlorophyll,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Chlorophyll,mg/m2,, ,"Ambiguous without depth, so delete this one",delete,
+Chlorophyll,mg/m3,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chlorophyll,ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chlorophyll,ug/l,mg/L,x/1000,Not sure why this is listed separately from row 25,keep,
+Chlorophyll a (probe relative fluorescence),ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chlorophyll a (probe),ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Chlorophyll a (probe),ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, corrected for pheophytin",mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Chlorophyll a, corrected for pheophytin",mg/m3,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, corrected for pheophytin",ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, corrected for pheophytin",ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, free of pheophytin",mg/m3,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, free of pheophytin",ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, free of pheophytin",ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, uncorrected for pheophytin",mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Chlorophyll a, uncorrected for pheophytin",mg/m2,, ,"Ambiguous without depth, so delete this one",delete,
+"Chlorophyll a, uncorrected for pheophytin",ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Chlorophyll a, uncorrected for pheophytin",ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Conductivity,NTU,NTU,none, ,keep,
+Conductivity,mS/cm,mS/cm,none, ,keep,
+Conductivity,uS/cm,mS/cm,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Conductivity,umho,, ,"Ambiguous, so delete",delete,
+Conductivity,umho/cm,, ,"Not sure, so keep it as is",keep,
+Cylindrospermopsins,None,, ,delete,delete,
+Cylindrospermopsins,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Depth,%,%,none, ,keep,
+Depth,None,, ,"Ambiguous, could be feet or meters, so might have to delete",delete,
+Depth,cm,, ,Delete,delete,
+Depth,ft,m,x*0.3048, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']*0.3048),row['Standard unit'])"
+Depth,m,m,none, ,keep,
+Depth,micron,, ,Delete,delete,
+"Depth, Secchi disk depth",cm,m,x/100, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/100),row['Standard unit'])"
+"Depth, Secchi disk depth",deg F,, ,Delete,delete,
+"Depth, Secchi disk depth",ft,m,x*0.3048, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']*0.3048),row['Standard unit'])"
+"Depth, Secchi disk depth",in,m,x*0.0254, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']*0.0254),row['Standard unit'])"
+"Depth, Secchi disk depth",m,m,none, ,keep,
+"Depth, bottom",cm,m,x/100, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/100),row['Standard unit'])"
+"Depth, bottom",ft,m,x*0.3048, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']*0.3048),row['Standard unit'])"
+"Depth, bottom",m,m,none, ,keep,
+Dissolved oxygen (DO),%,%,none,Change the variable name to Dissolved oxygen saturation,rename_variable,"def f(row):
+	return ('Dissolved oxygen saturation',row['ResultMeasureValue'],row['Standard unit'])"
+Dissolved oxygen (DO),deg C,, ,Delete,delete,
+Dissolved oxygen (DO),deg F,, ,Delete,delete,
+Dissolved oxygen (DO),mS/cm,, ,Delete,delete,
+Dissolved oxygen (DO),mg/l,mg/L,none,"Change the variable name to ""Dissolved oxygen""",rename_all,"def f(row):
+	return ('Dissolved oxygen',row['ResultMeasureValue'],row['Standard unit'])"
+Dissolved oxygen (DO),ppm,mg/L,none,"ppm equals mg/L; Change the variable name to ""Dissolved oxygen""",rename_all,"def f(row):
+	return ('Dissolved oxygen',row['ResultMeasureValue'],row['Standard unit'])"
+Dissolved oxygen (DO),ug/l,mg/L,x/1000,"Change the variable name to ""Dissolved oxygen""",rename_variable_convert,"def f(row):
+	return ('Dissolved oxygen',(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Dissolved oxygen saturation,%,%,none, ,keep,
+Dissolved oxygen saturation,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Hardness, carbonate",mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Hardness, carbonate",mg/l CaCO3,mg/L,none,"Change the unit and variable name to be: var: Hardness, Carbonate as CaCO3; unit: mg/L",rename_all,"def f(row):
+	return ('Hardness, Carbonate as CaCO3',row['ResultMeasureValue'],row['Standard unit'])"
+"Height, gage",ft,m,x*0.3048, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']*0.3048),row['Standard unit'])"
+Inorganic nitrogen (nitrate and nitrite),mg/kg,, ,Not sure so we can delete this variable,delete,
+Inorganic nitrogen (nitrate and nitrite),mg/kg as N,, ,Not sure so we can delete this variable,delete,
+Inorganic nitrogen (nitrate and nitrite),mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Inorganic nitrogen (nitrate and nitrite),mg/l as N,mg/L,none,"move the ""as N"" into the variable name",move,"def f(row):
+	return ('Inorganic nitrogen (nitrate and nitrite) as N',row['ResultMeasureValue'],row['Standard unit'])"
+Inorganic nitrogen (nitrate and nitrite),ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Inorganic nitrogen (nitrate and nitrite) as N,mg/kg,, ,Not sure so we can delete this variable,delete,
+Inorganic nitrogen (nitrate and nitrite) as N,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Inorganic nitrogen (nitrate and nitrite) as N,ppb,mg/L,x/1000,ppb = ug/L,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Inorganic nitrogen (nitrate and nitrite) as N,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Iron,%,, ,Delete,delete,
+Iron,mg/kg,, ,Not sure so we can delete this variable,delete,
+Iron,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Iron,ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Iron,ug/g,, ,Not sure so we can delete this variable,delete,
+Iron,ug/kg,, ,Not sure so we can delete this variable,delete,
+Iron,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Total Kjeldahl nitrogen,% by wt,, ,Not sure so we can delete this variable,delete,
+Total Kjeldahl nitrogen,mg/kg,, ,Not sure so we can delete this variable,delete,
+Total Kjeldahl nitrogen,mg/kg as N,, ,Not sure so we can delete this variable,delete,
+Total Kjeldahl nitrogen,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Total Kjeldahl nitrogen,mg/l as N,mg/L,none,"move the ""as N"" into the variable name",move,"def f(row):
+	return ('Total Kjeldahl nitrogen as N',row['ResultMeasureValue'],row['Standard unit'])"
+Total Kjeldahl nitrogen,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Microcystin,ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Microcystin,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Nitrate,None,, ,Delete,delete,
+Nitrate,mg/kg,, ,Delete,delete,
+Nitrate,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Nitrate,mg/l NO3,mg/L,none,"move the ""NO3"" to variable, but make it ""Nitrate, as NO3""",move,"def f(row):
+	return ('Nitrate as NO3',row['ResultMeasureValue'],row['Standard unit'])"
+Nitrate,mg/l as N,mg/L,none,"Move ""as N"" to variable name",move,"def f(row):
+	return ('Nitrate as N',row['ResultMeasureValue'],row['Standard unit'])"
+Nitrate,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Nitrite,mg/l,mg/L,none,Not sure why this is listed separately from 108,keep,
+Nitrite,mg/l NO3,mg/L,none,Move the 'as NO3' to the variable name,move,"def f(row):
+	return ('Nitrite as NO3',row['ResultMeasureValue'],row['Standard unit'])"
+Nitrite,mg/l as N,mg/L,none,"move the ""as N"" to the variable name",move,"def f(row):
+	return ('Nitrite as N',row['ResultMeasureValue'],row['Standard unit'])"
+Nitrogen,mg/g,, ,Delete,delete,
+Nitrogen,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Nitrogen,ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Nitrogen,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",% by wt,, ,Delete,delete,
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",mg/kg,, ,Delete,delete,
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",mg/l NO3,mg/L,none,"move the ""as NO3"" to the variable name",move,"def f(row):
+	return ('Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3), as NO3',row['ResultMeasureValue'],row['Standard unit'])"
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Organic Nitrogen,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Organic carbon,%,, ,Delete,delete,
+Organic carbon,% by wt,, ,Delete,delete,
+Organic carbon,None,, ,Delete,delete,
+Organic carbon,g/kg,, ,Delete,delete,
+Organic carbon,mg/kg,, ,Delete,delete,
+Organic carbon,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Organic carbon,ppm,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Organic carbon,ug/g,, ,Delete,delete,
+Organic carbon,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Orthophosphate,None,, ,Delete,delete,
+Orthophosphate,mg/kg,, ,Delete,delete,
+Orthophosphate,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Orthophosphate,mg/l as P,mg/L,none,"move the ""as P"" to the variable name",move,"def f(row):
+	return ('Orthophosphate as P',row['ResultMeasureValue'],row['Standard unit'])"
+Orthophosphate,mg/l asPO4,mg/L,none,"move the ""as PO4"" to the variable name",move,"def f(row):
+	return ('Orthophosphate as PO4',row['ResultMeasureValue'],row['Standard unit'])"
+Orthophosphate,ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Orthophosphate,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Orthophosphate as P,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Oxidation reduction potential (ORP),m/y,, ,Delete,delete,
+Oxidation reduction potential (ORP),mV,mV,none, ,keep,
+Oxygen,% saturatn,%,none,"change the variable name to ""Dissolved oxygen"" and the unit name to ""%""",rename_all,"def f(row):
+	return ('Dissolved oxygen',row['ResultMeasureValue'],row['Standard unit'])"
+Oxygen,mg/l,mg/L,none,"Change the variable name to ""Dissolved oxygen""",rename_all,"def f(row):
+	return ('Dissolved oxygen',row['ResultMeasureValue'],row['Standard unit'])"
+Phosphate-phosphorus,mg/kg,, ,Delete,delete,
+Phosphate-phosphorus,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Phosphate-phosphorus,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Phosphate-phosphorus as P,mg/kg,, ,Delete,delete,
+Phosphate-phosphorus as P,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Phosphorus,%,, ,Delete,delete,
+Phosphorus,% by wt,, ,Delete,delete,
+Phosphorus,mg/g,, ,Delete,delete,
+Phosphorus,mg/kg,, ,Delete,delete,
+Phosphorus,mg/kg as P,, ,Delete,delete,
+Phosphorus,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Phosphorus,mg/l as P,mg/L,none,"Move the ""as P"" to the variable name",move,"def f(row):
+	return ('Phosphorus as P',row['ResultMeasureValue'],row['Standard unit'])"
+Phosphorus,mg/l asPO4,mg/L,none,"Move the ""as PO4"" to the variable name",move,"def f(row):
+	return ('Phosphorus as PO4',row['ResultMeasureValue'],row['Standard unit'])"
+Phosphorus,ppb,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Phosphorus,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Phosphorus,ug/l as P,mg/L,x/1000,"Move the ""as P"" to the variable name",move_convert,"def f(row):
+	return ('Phosphorus as P',(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Phycocyanins,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Phycocyanins,RFU,RFU,none, ,keep,
+Phycocyanins,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Phytoplankton,#/l,Count/mL,x*1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']*1000),row['Standard unit'])"
+Phytoplankton,#/ml,Count/mL,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Saxitoxin,ng/l,, ,Delete,delete,
+Saxitoxin,ug/l,, ,Delete,delete,
+Saxitoxin,ug/l,, ,Delete,delete,
+Specific conductance,None,, ,Delete,delete,
+Specific conductance,S/m,, ,Not sure,keep,
+Specific conductance,mS/cm,mS/cm,none,"remove ""Specific"" from variable name",rename_variable,"def f(row):
+	return ('Conductance',row['ResultMeasureValue'],row['Standard unit'])"
+Specific conductance,mg/l,, ,Delete,delete,
+Specific conductance,mho/cm,, ,Delete,delete,
+Specific conductance,uS/cm,mS/cm,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Specific conductance,uS/cm @25C,mS/cm,x/1000,"Move the ""@25C"" to the variable name; remove ""specific"" from variable name",move_convert,"def f(row):
+	return ('Conductance @25C',(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Specific conductance,ug/l,, ,Delete,delete,
+Specific conductance,umho/cm,, ,Delete,delete,
+Sulfate,mg/kg,, ,Delete,delete,
+Sulfate,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Sulfate,ug/l,mg/L,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+Sulfate as SO4,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Temperature, water",Deg,, ,Delete,delete,
+"Temperature, water",deg C,C,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Temperature, water",deg F,C,(x - 32) * 5/9, ,convert,"def f(row):
+	return (row['CharacteristicName'],((row['ResultMeasureValue']-32)*5/9),row['Standard unit'])"
+"Temperature, water",ft,, ,Delete,delete,
+"Temperature, water",mg/l,, ,Delete,delete,
+"Temperature, water",ug/l,, ,Delete,delete,
+Total Kjeldahl nitrogen,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+Total suspended solids,%,, ,Delete,delete,
+Total suspended solids,deg C,, ,Delete,delete,
+Total suspended solids,kg,, ,Delete,delete,
+Total suspended solids,mg/l,mg/L,none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+"Transmittance, Horizontal",%,%,none, ,keep,
+"Transparency, Secchi tube with disk",cm,m,x/1000, ,convert,"def f(row):
+	return (row['CharacteristicName'],(row['ResultMeasureValue']/1000),row['Standard unit'])"
+"Transparency, Secchi tube with disk",NTU,, ,Delete,delete,
+"Transparency, Secchi tube with disk",cm,m,x/1000,Not sure why this different from row 195,keep,
+"Transparency, Secchi tube with disk",mm,, ,Delete,delete,
+Turbidity,FNMU,, ,Delete,delete,
+Turbidity,FNRU,, ,"Not sure, so let's keep it for now",keep,
+Turbidity,FNU,, ,"Not sure, so let's keep it for now",keep,
+Turbidity,FTU,, ,"Not sure, so let's keep it for now",keep,
+Turbidity,JCU,, ,Delete,delete,
+Turbidity,JTU,, ,Delete,delete,
+Turbidity,NTRU,, ,"Not sure, so let's keep it for now",keep,
+Turbidity,NTU,NTU, , ,keep,
+Turbidity,None,, ,Delete,delete,
+Turbidity,T.U.,, ,Delete,delete,
+Turbidity,cm,, ,Delete,delete,
+Turbidity,deg C,, ,Delete,delete,
+Turbidity,in,, ,Delete,delete,
+Turbidity,mg/l,, ,Delete,delete,
+Turbidity,mg/l SiO2,, ,Delete,delete,
+Turbidity,nm,, ,Delete,delete,
+Water appearance (text),None,, ,Delete,delete,
+Water level in relation to reference point,cm,, ,Delete,delete,
+Water level in relation to reference point,m,, ,Delete,delete,
+pH,NTU,, ,Delete,delete,
+pH,None,[no unit],none,Correct there ususally are no units as it's the negative log of the hydrogen ion concentration,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"
+pH,mV,, ,Delete,delete,
+pH,ng,, ,Delete,delete,
+pH,std units,[no unit],none, ,rename_unit,"def f(row):
+	return (row['CharacteristicName'],row['ResultMeasureValue'],row['Standard unit'])"

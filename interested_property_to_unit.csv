@@ -1,0 +1,216 @@
+CharacteristicName,ResultMeasure/MeasureUnitCode,Frequency
+Actual Number of Individuals Examined,count,37
+Actual Number of Individuals Examined,None,22259
+"Algae, blue-green (phylum cyanophyta) density",#/ml,3498
+"Alkalinity, Carbonate as CaCO3",mg/l,3747
+"Alkalinity, total",mg/l,78546
+"Alkalinity, total",mg/l CaCO3,12281
+"Alkalinity, total",ppm,1
+Ammonia,mg/kg,243
+Ammonia,mg/l,21652
+Ammonia,ug/l,8
+Ammonia and ammonium,mg/kg as N,81
+Ammonia and ammonium,mg/l NH4,10357
+Ammonia and ammonium,mg/l as N,10265
+Biomass,ug,14715
+Biomass,ug/m3,22967
+Carbonate,mg/l,1798
+Carbonate,mg/l CaCO3,61
+Chemical oxygen demand,mg/kg,27
+Chemical oxygen demand,mg/l,792
+Chemical oxygen demand,ug/l,37
+Chloride,mg/l,84319
+Chloride,ug/l,216
+Chlorophyll,RFU,2483
+Chlorophyll,ug/l,35770
+Chlorophyll,#/l,542
+Chlorophyll,IVFU,32
+Chlorophyll,None,1
+Chlorophyll,mg/l,148
+Chlorophyll,mg/m2,30
+Chlorophyll,mg/m3,150
+Chlorophyll,ppb,1181
+Chlorophyll a (probe relative fluorescence),ug/l,370441
+Chlorophyll a (probe),ppb,1760
+Chlorophyll a (probe),ug/l,70
+"Chlorophyll a, corrected for pheophytin",mg/l,237
+"Chlorophyll a, corrected for pheophytin",mg/m3,2
+"Chlorophyll a, corrected for pheophytin",ppb,1641
+"Chlorophyll a, corrected for pheophytin",ug/l,167174
+"Chlorophyll a, free of pheophytin",mg/m3,450
+"Chlorophyll a, free of pheophytin",ppb,1526
+"Chlorophyll a, free of pheophytin",ug/l,3457
+"Chlorophyll a, uncorrected for pheophytin",mg/l,41
+"Chlorophyll a, uncorrected for pheophytin",mg/m2,6
+"Chlorophyll a, uncorrected for pheophytin",ppb,1140
+"Chlorophyll a, uncorrected for pheophytin",ug/l,64587
+Conductivity,NTU,2
+Conductivity,mS/cm,6554
+Conductivity,uS/cm,332108
+Conductivity,umho,3
+Conductivity,umho/cm,10962
+Cylindrospermopsins,None,1
+Cylindrospermopsins,ug/l,353
+Depth,%,1853
+Depth,None,467
+Depth,cm,1
+Depth,ft,22501
+Depth,m,5553
+Depth,micron,2651
+"Depth, Secchi disk depth",cm,941
+"Depth, Secchi disk depth",deg F,1
+"Depth, Secchi disk depth",ft,241433
+"Depth, Secchi disk depth",in,1959
+"Depth, Secchi disk depth",m,653781
+"Depth, bottom",cm,654
+"Depth, bottom",ft,1341
+"Depth, bottom",m,5501
+Dissolved oxygen (DO),%,251
+Dissolved oxygen (DO),deg C,2
+Dissolved oxygen (DO),deg F,19
+Dissolved oxygen (DO),mS/cm,2
+Dissolved oxygen (DO),mg/l,1706188
+Dissolved oxygen (DO),ppm,7261
+Dissolved oxygen (DO),ug/l,1221
+Dissolved oxygen saturation,%,394823
+Dissolved oxygen saturation,mg/l,523
+"Hardness, carbonate",mg/l,3102
+"Hardness, carbonate",mg/l CaCO3,1240
+"Height, gage",ft,8258
+Inorganic nitrogen (nitrate and nitrite),mg/kg,67
+Inorganic nitrogen (nitrate and nitrite),mg/kg as N,93
+Inorganic nitrogen (nitrate and nitrite),mg/l,109389
+Inorganic nitrogen (nitrate and nitrite),mg/l as N,9510
+Inorganic nitrogen (nitrate and nitrite),ug/l,1739
+Inorganic nitrogen (nitrate and nitrite) as N,mg/kg,20
+Inorganic nitrogen (nitrate and nitrite) as N,mg/l,9066
+Inorganic nitrogen (nitrate and nitrite) as N,ppb,217
+Inorganic nitrogen (nitrate and nitrite) as N,ug/l,375
+Iron,%,17
+Iron,mg/kg,2535
+Iron,mg/l,7776
+Iron,ppb,276
+Iron,ug/g,15
+Iron,ug/kg,95
+Iron,ug/l,7348
+Total Kjeldahl nitrogen,% by wt,112
+Total Kjeldahl nitrogen,mg/kg,1105
+Total Kjeldahl nitrogen,mg/kg as N,111
+Total Kjeldahl nitrogen,mg/l,170744
+Total Kjeldahl nitrogen,mg/l as N,13678
+Total Kjeldahl nitrogen,ug/l,3410
+Microcystin,ppb,410
+Microcystin,ug/l,1474
+Nitrate,None,49
+Nitrate,mg/kg,32
+Nitrate,mg/l,8300
+Nitrate,mg/l NO3,1127
+Nitrate,mg/l as N,2206
+Nitrate,ug/l,4
+Nitrite,mg/l,6407
+Nitrite,mg/l NO3,871
+Nitrite,mg/l as N,1122
+Nitrogen,mg/g,13
+Nitrogen,mg/l,1935
+Nitrogen,ppb,1098
+Nitrogen,ug/l,4625
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",% by wt,57
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",mg/kg,187
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",mg/l,10307
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",mg/l NO3,6347
+"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)",ug/l,111
+Organic Nitrogen,mg/l,15992
+Organic carbon,%,724
+Organic carbon,% by wt,57
+Organic carbon,None,3
+Organic carbon,g/kg,305
+Organic carbon,mg/kg,111
+Organic carbon,mg/l,14908
+Organic carbon,ppm,454
+Organic carbon,ug/g,126
+Organic carbon,ug/l,13
+Orthophosphate,None,134
+Orthophosphate,mg/kg,16
+Orthophosphate,mg/l,97842
+Orthophosphate,mg/l as P,4982
+Orthophosphate,mg/l asPO4,4983
+Orthophosphate,ppb,543
+Orthophosphate,ug/l,2902
+Orthophosphate as P,mg/l,3265
+Oxidation reduction potential (ORP),m/y,426
+Oxidation reduction potential (ORP),mV,53076
+Oxygen,% saturatn,8844
+Oxygen,mg/l,133058
+Phosphate-phosphorus,mg/kg,1915
+Phosphate-phosphorus,mg/l,116790
+Phosphate-phosphorus,ug/l,32
+Phosphate-phosphorus as P,mg/kg,115
+Phosphate-phosphorus as P,mg/l,10280
+Phosphorus,%,17
+Phosphorus,% by wt,61
+Phosphorus,mg/g,29
+Phosphorus,mg/kg,534
+Phosphorus,mg/kg as P,583
+Phosphorus,mg/l,291179
+Phosphorus,mg/l as P,25763
+Phosphorus,mg/l asPO4,512
+Phosphorus,ppb,1452
+Phosphorus,ug/l,25586
+Phosphorus,ug/l as P,183
+Phycocyanins,ug/l,133
+Phycocyanins,RFU,35
+Phytoplankton,#/l,643
+Phytoplankton,#/ml,1416
+Saxitoxin,ng/l,2
+Saxitoxin,ug/l,7
+Specific conductance,None,2
+Specific conductance,S/m,5728
+Specific conductance,mS/cm,19564
+Specific conductance,mg/l,166
+Specific conductance,mho/cm,1127
+Specific conductance,uS/cm,799113
+Specific conductance,uS/cm @25C,137110
+Specific conductance,ug/l,237
+Specific conductance,umho/cm,85547
+Sulfate,mg/kg,16
+Sulfate,mg/l,21756
+Sulfate,ug/l,76
+Sulfate as SO4,mg/l,1839
+"Temperature, water",Deg,1
+"Temperature, water",deg C,1726636
+"Temperature, water",deg F,474306
+"Temperature, water",ft,100
+"Temperature, water",mg/l,5
+"Temperature, water",ug/l,1
+Total suspended solids,%,75
+Total suspended solids,deg C,2
+Total suspended solids,kg,5
+Total suspended solids,mg/l,66430
+"Transmittance, Horizontal",%,263306
+"Transparency, Secchi tube with disk",cm,1829
+"Transparency, Secchi tube with disk",NTU,1
+"Transparency, Secchi tube with disk",mm,2
+Turbidity,FNMU,279
+Turbidity,FNRU,2006
+Turbidity,FNU,25905
+Turbidity,FTU,3285
+Turbidity,JCU,366
+Turbidity,JTU,533
+Turbidity,NTRU,2617
+Turbidity,NTU,88283
+Turbidity,None,14284
+Turbidity,T.U.,276
+Turbidity,cm,27
+Turbidity,deg C,3
+Turbidity,in,7
+Turbidity,mg/l,22
+Turbidity,mg/l SiO2,7
+Turbidity,nm,5718
+Water appearance (text),None,104
+Water level in relation to reference point,cm,60
+Water level in relation to reference point,m,2899
+pH,NTU,2
+pH,None,977369
+pH,mV,16
+pH,ng,1
+pH,std units,135780

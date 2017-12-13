@@ -1,0 +1,130 @@
+ResultMeasure/MeasureUnitCode,Frequency
+"{'nan': 5, 'MPN/100ml': 18}",Escherichia coli
+"{'nan': 16, 'MPN/100ml': 2}",Total Coliform
+"{'mg/l': 146, 'ppm': 7, 'mg/l      ': 3}",Dissolved oxygen (DO)
+"{'None': 156, 'std units': 25, 'None      ': 5}",pH
+"{'umho/cm': 133, 'uS/cm @25C': 25, 'uS/cm     ': 5}",Specific conductance
+"{'deg C': 184, 'deg C     ': 3}","Temperature, water"
+"{'NTU': 137, 'FNU': 8, 'NTRU': 9, 'NTU       ': 3}",Turbidity
+{'%': 133},Dissolved oxygen saturation
+{'ug/l': 135},Microcystin LR
+"{'mg/l': 118, 'ug/kg': 2}",Ammonia-nitrogen
+"{'mg/l': 116, 'mg/l      ': 3}",Kjeldahl nitrogen
+"{'mg/l': 118, 'mg/l as N': 23}",Inorganic nitrogen (nitrate and nitrite)
+"{'mg/l': 118, 'mg/l as P': 16, 'mg/l      ': 4}",Phosphorus
+"{'mg/l': 35, '%         ': 1, '%': 2}",Organic carbon
+{'ug/l': 67},Cylindrospermopsin
+"{'mg/l': 13, 'nan': 30, 'mg/l as P': 1, 'mg/l asPO4': 1, 'mg/l      ': 4}",Orthophosphate
+{'ug/l': 86},Anatoxin
+{'nan': 13},Conductivity
+"{'ug/l': 26, 'ug/l      ': 1}",Chlorophyll a
+"{'m': 17, 'ft': 4}","Depth, Secchi disk depth"
+{'nan': 29},Weather condition (WMO code 4501) (choice list)
+{'deg F': 3},"Temperature, air, deg F"
+{'mm/Hg': 16},Barometric pressure
+"{'mg/l': 25, '% saturatn': 16}",Oxygen
+{'code': 16},Oil and Grease
+{'code': 15},"Detergent, severity (choice list)"
+{'code': 16},Floating Garbage Severity (choice List)
+{'code': 16},Floating algae mat - severity (choice list)
+{'code': 16},"Odor, atmospheric"
+{'code': 16},"Fish Kill, Severity (choice list)"
+{'code': 16},Floating debris - severity (choice list)
+{'code': 16},Turbidity severity (choice list)
+"{'ug/l': 13, 'RFU': 16}",Chlorophyll
+"{'ug/l': 13, 'RFU': 16}",Phycocyanins
+"{'nan': 13, 'mg/l': 12}",Hydrogen ion
+"{'mg/l as N': 14, 'mg/l NH4': 14, 'nan': 4}",Ammonia and ammonium
+"{'mg/l as N': 16, 'mg/l asNO3': 16}",Nitrite
+{'ug/l': 16},Pheophytin a
+{'mg/l': 16},"Nitrogen, mixed forms (NH3), (NH4), organic, (NO2) and (NO3)"
+"{'mg/l asNO3': 16, 'mg/l as N': 16}",Nitrate
+"{'mg/l': 14, 'nan': 2}",Organic Nitrogen
+{'deg C': 16},"Temperature, air, deg C"
+"{'ng/l': 16, 'nan': 5, 'ug/kg': 1}",Mercury
+{'ft': 9},Depth of pond or reservoir in feet
+{'mg/l': 9},Carbon
+"{'nan': 8, 'mg/l': 1}",Inorganic carbon
+"{'nan': 16, 'ng/l': 2}",Methylmercury(1+)
+{'mg/l': 9},Nitrogen
+"{'nan': 8, 'mg/l': 1}",Total suspended solids
+{'mg/l': 9},Sulfate
+"{'ug/kg     ': 1, 'nan': 2, 'ug/kg': 2}",Nickel
+"{'ug/kg     ': 2, 'ug/kg': 3}",Copper
+"{'ug/kg     ': 2, 'ug/kg': 3}",Zinc
+"{'ug/kg     ': 1, 'ug/kg': 1}",Simultaneously extracted metals
+"{'ug/kg     ': 2, 'ug/kg': 3}",Lead
+"{'ug/kg     ': 1, 'mg/l      ': 4}",Ammonia as NH3
+"{'%         ': 1, '%': 2}",Total solids
+{'mg/l      ': 4},Inorganic nitrogen (nitrate and nitrite) as N
+{'mg/l      ': 2},"Alkalinity, Carbonate as CaCO3"
+"{'nan': 1, 'ug/kg': 1}",Heptachlor epoxide
+"{'nan': 1, 'ug/kg': 1}",Endosulfan sulfate
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1260
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1254
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1221
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1232
+"{'nan': 1, 'ug/kg': 1}",Hexachlorobenzene
+"{'nan': 1, 'ug/kg': 1}",Anthracene
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1248
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1016
+{'ug/kg': 2},Pyrene
+{'nan': 1},Methylnaphthalene
+"{'nan': 1, 'ug/kg': 1}",Pentachloroanisole
+{'ug/kg': 2},Benzo[ghi]perylene
+{'ug/kg': 2},"Indeno[1,2,3-cd]pyrene"
+{'ug/kg': 2},Benzo(b)fluoranthene
+{'ug/kg': 2},Fluoranthene
+{'ug/kg': 2},Benzo[k]fluoranthene
+"{'nan': 1, 'ug/kg': 1}",Acenaphthylene
+{'ug/kg': 2},Chrysene
+"{'nan': 1, 'ug/kg': 1}",Oxychlordane
+"{'nan': 1, 'ug/kg': 1}",Aldrin
+"{'nan': 1, 'ug/kg': 1}",.alpha.-Hexachlorocyclohexane
+"{'nan': 1, 'ug/kg': 1}",.beta.-Hexachlorocyclohexane
+"{'nan': 1, 'ug/kg': 1}",.delta.-Hexachlorocyclohexane
+"{'nan': 1, 'ug/kg': 1}",.beta.-Endosulfan
+"{'nan': 1, 'ug/kg': 1}","o,p'-DDE"
+"{'nan': 1, 'ug/kg': 1}",trans-Nonachlor
+"{'nan': 1, 'ug/kg': 1}","p,p'-DDT"
+{'ug/kg': 2},Benzo[a]pyrene
+"{'nan': 1, 'ug/kg': 1}",cis-Chlordane
+"{'nan': 1, 'ug/kg': 1}",cis-Nonachlor
+"{'nan': 1, 'ug/kg': 1}","o,p'-DDD"
+"{'nan': 1, 'ug/kg': 1}","Dibenz[a,h]anthracene"
+"{'nan': 1, 'ug/kg': 1}",Aroclor 1242
+"{'nan': 1, 'ug/kg': 1}",Endrin ketone
+"{'nan': 1, 'ug/kg': 1}",trans-Chlordane
+{'ug/kg': 2},Benz[a]anthracene
+"{'nan': 1, 'ug/kg': 1}",Lindane
+"{'nan': 1, 'ug/kg': 1}",Dieldrin
+"{'nan': 1, 'ug/kg': 1}",Endrin
+"{'nan': 1, 'ug/kg': 1}",Methoxychlor
+"{'nan': 1, 'ug/kg': 1}","p,p'-DDD"
+"{'nan': 1, 'ug/kg': 1}","p,p'-DDE"
+"{'nan': 1, 'ug/kg': 1}",Endrin aldehyde
+"{'nan': 3, 'ug/kg': 1}",Cadmium
+"{'nan': 1, 'ug/kg': 1}",Heptachlor
+"{'nan': 1, 'ug/kg': 1}","o,p'-DDT"
+"{'nan': 1, 'ug/kg': 1}",Toxaphene
+"{'nan': 1, 'ug/kg': 1}",Acenaphthene
+{'ug/kg': 2},Phenanthrene
+"{'nan': 1, 'ug/kg': 1}",Fluorene
+"{'nan': 1, 'ug/kg': 1}",Naphthalene
+"{'nan': 1, 'ug/kg': 1}",2-Methylnaphthalene
+"{'nan': 1, 'ug/kg': 1}",.alpha.-Endosulfan
+{'%': 2},Total volatile solids
+"{'ug/kg': 1, 'mg/kg': 1}",Acid Volatile Sulfides
+{'None': 1},Simultaneously extracted metals/acid volatile sulfides
+{'g/cm3': 2},Specific gravity
+{'%': 1},"Particle size, Sieve No. 140, 150 mesh, (0.106mm)"
+{'%': 2},"Particle size, Sieve No. 200, 200 mesh, (0.075mm)"
+{'%': 1},"Particle size, Sieve No. 04, 4 mesh, (4.75mm)"
+{'%': 1},"Particle size, Sieve No. 10, 9 mesh, (2.00mm)"
+{'%': 1},"Particle size, Sieve No. 20, 20 mesh, (0.850mm)"
+{'%': 1},"Particle size, Sieve No. 40, 35 mesh, (0.425mm)"
+{'%': 1},"Particle size, Sieve No. 60, 60 mesh, (0.250mm)"
+{'%': 1},"Particle size, Sieve No. 100, 100 mesh, (0.150mm)"
+{'ug/kg': 1},1-Methylnaphthalene
+{'%': 1},Substrate - gravel
+{'%': 1},Sand
